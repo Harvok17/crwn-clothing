@@ -5,8 +5,6 @@ import React from "react";
 import CollectionItem from "../collection-item/collection-item.component";
 import { OptionLink } from "../header/header.styles";
 
-// Add scrolling feature here
-
 const CollectionPreview = ({ title, items, routeName }) => {
   return (
     <div className="collection-preview">
